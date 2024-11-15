@@ -1,0 +1,438 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+/* The following makes the page Responsive. Remember the further down the page the more priority the code has. */
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+	/* For mobile phones: */
+	width: 100%;
+}
+/* For tablets: */
+@media only screen and (min-width: 833px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+/* For desktop: */
+@media only screen and (min-width: 992px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	.jumbotron .jumboimage img{
+		display:block;
+	}
+	.jumbotron .jumbotext{
+		margin:100px 0px;
+	}
+}
+.anton {
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-size: 2.5em;
+    font-style: normal;
+  }
+.sarabun {
+font-family: "Sarabun", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+body {
+    font-family: "verdana", "arial", "helvetica", "sans-serif";
+    font-size: 1.2em;
+	background-color:rgba(0,0,0,1.00);
+}
+h1, h2, h3, h4, h5 {
+    margin: 0px;
+    text-align: center;
+    color: rgba(92,225,230,1.00);
+	text-shadow: 5px 5px 5px #000000
+}
+div {
+    padding: 10px;
+}
+p{
+	text-align:left;
+	color: rgba(92,225,230,1.00);
+	text-shadow: 5px 5px 5px #000000
+}
+img{
+    width:100%;
+    height:auto;
+}
+.logodiv, .logodiv a img{
+    float:left;
+    width:auto;
+    height:100%;
+}
+.button{
+    background-color:rgba(92,225,230,1.00);
+    border: solid 2px rgba(0,0,0,1.00);
+}
+.button a h3{
+    color: rgba(6,63,73,1.00);
+    text-shadow: 0px 0px 0px #000000;
+}
+.button a{
+     text-decoration: none;
+}
+.button:hover{
+    background-color:rgba(255,255,255,1.00);
+}
+.wrapper {
+    max-width:1200px;
+    margin: auto;
+    height: auto;
+    padding: 0px;
+	background-color:rgba(6,63,73,1.00);
+}
+
+hr{
+	background-color: rgba(255,49,49,1.00);
+	border:none;
+	height:5px;
+}
+.logo, .logo img{
+	margin-left:30px;
+}
+.social-contact{
+	text-align:center;
+}
+.copy-contact{
+	padding:0px;
+}
+.jumbotron{
+	background-image: linear-gradient(rgba(100,100,100,1.00) 0%, rgba(0,0,0,1.00) 100%);
+}
+.jumbotron, .jumbotron img{
+	padding:0px;
+	margin:auto;
+}
+.jumboimage{
+	padding:0px;
+}
+.jumbotron img{
+	float:left;
+	display:none;
+	padding:0px;
+}
+.jumbotext .button{
+    margin: 10px 10px;
+}
+.jumbotext p{
+	text-align:center;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+.jumbotext a h1{
+	color:rgba(68,182,255,1.00)
+}
+.jumbotext a:link{
+	color:rgba(68,182,255,1.00);
+	
+}
+.jumbotext a:visited{
+	color:rgba(0,120,189,1.00);
+}
+.jumbotext a:hover, .jumbotext a h1:hover{
+	color:rgba(0,255,227,1.00);
+}
+.jumbotext a:active{
+	color:rgba(255,255,255,1.00);
+}
+.article iframe{
+	width:100%;
+}
+.star-article{
+    width:100%;
+    text-align:center;
+    background-color: rgba(32,32,32,1.00);
+}
+.star-article p{
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+.star-article .star{
+    width:50px;
+    height:auto;
+}
+.article a{
+	font-size:40px;
+}
+.article a:link{
+	color:rgba(68,182,255,1.00);
+	
+}
+.article a:visited{
+	color:rgba(0,120,189,1.00);
+}
+.article a:hover{
+	color:rgba(0,255,227,1.00);
+}
+.article a:active{
+	color:rgba(255,255,255,1.00);
+}
+.art-contact p{
+	text-align:center;
+}
+.process-art{
+	text-align:center;
+}
+.process-art img{
+	width:100%;
+	height:auto;
+}
+.port-piece{
+    margin:10px;
+    height:auto;
+    background-color:rgba(92,225,230,1.00);
+}
+.port-piece h3, .port-piece p{
+    color:rgba(0,0,0,1.00);
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.60);
+}
+.dropshad{
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.sitemap img{
+    margin:10px 0px;
+}
+.footer {
+    height: 300px;
+    background-color: rgba(11,119,138,1.00);
+}
+.footer .copy-contact p{
+	text-align: center;
+}
+
+.social {
+	width:360px;
+	
+    padding: 0px;
+	margin: auto;
+}
+.social a {
+	float:left;
+    display: block;
+	width: 70px;
+    height:auto;
+	padding:0px;
+	margin:0px 10px;
+}
+.social a img{
+	
+}
+.social .facebook {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black/facebook.png") no-repeat;
+        display: inline-block;
+    }
+.social .facebook:hover {
+        background: url("images/social-logos-teal-circle/facebook.png") no-repeat;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.social .messenger {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black/messenger.png") no-repeat;
+        display: inline-block;
+    }
+.social .messenger:hover {
+        background: url("images/social-logos-teal-circle/messenger.png") no-repeat;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.social .instagram {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black/instagram.png") no-repeat;
+        display: inline-block;
+    }
+.social .instagram:hover {
+        background: url("images/social-logos-teal-circle/instagram.png") no-repeat;
+	filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.social .email {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black/email.png") no-repeat;
+        display: inline-block;
+    }
+.social .email:hover {
+        background: url("images/social-logos-teal-circle/email.png") no-repeat;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.social .x {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black/email.png") no-repeat;
+        display: inline-block;
+    }
+.social .x:hover {
+        background: url("images/social-logos-teal-circle/email.png") no-repeat;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+header{
+    background-color: rgba(11,119,138,1.00);
+    position: relative;
+	padding:0px;
+	margin:auto;
+}
+/* Logo */
+.logo{
+	width:auto;
+	height:100px;
+	display: inline-block;
+	margin:5px;
+	padding:0px;
+}
+/* Nav menu */
+.navbar{
+	height:300px;
+	margin: 10px;
+    padding: 0px;
+	font-size: 14px;
+    font-weight: bold;
+	background-color: rgba(0,0,0,1.00);
+    position: fixed;
+    overflow: hidden;
+	max-height: 0;
+    transition: max-height .5s ease-out;
+}
+.menu{
+	height:280px;
+	padding:30px 20px;
+	margin:0px;
+}
+.menu a{
+	background-color:rgba(92,225,230,1.00);
+	color:rgba(0,0,0,1.00);
+  	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1.00);
+  	text-align: center;
+ 	text-decoration: none;
+ 	display:block;
+  	font-size: 14px;
+	width: 100%;
+    height:40px;
+	margin: 10px 5px;
+	padding:10px;
+}
+.menu a:hover{
+    color: rgba(0,0,0,1.0); 
+    background-color: rgba(255,255,255,1.00);
+}
+
+.navbar .menu .active{
+	color: rgba(255,255,255,1.00);
+    background-color: rgba(46,46,46,1.00);
+}
+/* Menu Icon */
+.hamb{
+	background-color:rgba(0,0,0,1.00);
+	margin:20px 10px;
+    cursor: pointer;
+    float: right;
+    padding: 40px 40px;
+}/* Style label tag */
+
+.hamb-line {
+    background: rgba(255,255,255,1.00);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+} /* Style span tag */
+
+.hamb-line::before, .hamb-line::after{
+    background: rgba(255,255,255,1.00);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+} /* Hide checkbox */
+/* Toggle menu icon */
+.side-menu:checked ~ nav{
+	position: sticky;
+    max-height: 400%;
+	
+}
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+@media only screen and (min-width: 833px) {
+    .navbar{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+	.menu{
+		height:100px;
+	}
+    .menu a{
+		width:110px;
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+    }
+	.footer{
+		height:200px;
+	}
+	.hamb{
+		display:none;
+	}
+	.navbar{
+		height:100px;
+	}
+}
