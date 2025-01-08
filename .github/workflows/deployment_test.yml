@@ -1,8 +1,8 @@
-name: Deploy Release to cPanel
+name: Deploy Test to cPanel
 on:
   push:
     branches:
-    - main
+    - test
 
 jobs:
   FTP-Deploy-Action:
@@ -17,6 +17,6 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME_RELEASE }}
-          password: ${{ secrets.FTP_PASSWORD_RELEASE }}
+          username: ${{ secrets.FTP_USERNAME_TEST }}
+          password: ${{ secrets.FTP_PASSWORD_TEST }}
           port: ${{ secrets.FTP_PORT }}
