@@ -1,8 +1,22 @@
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
+            License pertaining to copyright holder Alexander Weinhart
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   This license applies to all files on this website, except the font files used both in the "fonts" and "legal-docs/fonts" folders, and any external code referenced via links in the html used to make the site run applets and specialized functions.
+
+   SUMMARY:
+   Users can freely use the software for any purpose, either commercial and non-commercial. Uses such as educational or non-profit projects, miscellaneous projects not involving money, or even deploying the software in products or services that are sold or offered for profit. This means that individuals and organizations can utilize the software without needing to pay for a license.
+
+   Users are allowed to modify the software and distribute their modifications. When doing so, they must retain the original copyright notice and disclaimers, ensuring that the original authors are credited.
+
+   Unlike some other open-source licenses, the Apache License 2.0 does not impose copyleft requirements. This means that users are not obligated to disclose their source code or modifications, in both non-commercial or commercial contexts.
+
+   The license includes an additional grant of patent rights from contributors to users, which protects users from potential patent infringement claims related to any invention that uses this repository. This provision applies equally to both commercial and non-commercial use.
+
+   FINE PRINT:
 
    1. Definitions.
 
